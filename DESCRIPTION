@@ -1,11 +1,15 @@
 Package: typingRec
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Analyze Data Collected with the Typing Recorder
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Dominik J. Leiner
+Maintainer: Dominik J. Leiner <mail@dominik-leiner.de>
+Description: The question type "Typing Recorder" in SoSci Survey creates a detailled record
+    of keyboard and mouse activity while respondents produce a text.
+    The typing data comprises the activity (keystrokes and events) and
+    changes (text additions and deletions).
+    The typingRec package provides functions to compute parameters from these data,
+    such as typing speed or the relation of typing bursts and pauses.
+License: GPL-3.0 license
 Encoding: UTF-8
 LazyData: true
